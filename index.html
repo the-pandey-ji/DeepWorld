@@ -1,32 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="login.css">
     <link rel="stylesheet" href="signup.css">
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <script
-      type="text/javascript"
-      src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-    ></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <title>DeepWorld</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="header1">
-      <h1>
-        <i style="color: black;" class="fa fa-lightbulb-o" aria-hidden="true"></i>
-        DeepWorld
-      </h1>
+        <h1>
+            <i style="color: black;" class="fa fa-lightbulb-o" aria-hidden="true"></i> DeepWorld
+        </h1>
     </div>
     <div class="navbar1">
-      <a href="#"
-        ><i style="margin-left: 4px" class="fa fa-fw fa-home"></i> Home</a
+        <a href="#"><i style="margin-left: 4px" class="fa fa-fw fa-home"></i> Home</a
       >
       <a href="#About Us"
         ><i style="margin-right: 4px" class="fa fa-user-plus"></i>About Us</a
@@ -35,19 +29,17 @@
         ><i style="margin-left: 4px" class="fa fa-fw fa-mobile"></i> Ideas</a
       >
       <a href="addStory.html"
-        ><i style="margin-right: 4px" class="fa fa-plus"></i>Add Idea</a?
-      >
-      <a href="#link3"
-        ><i style="margin-left: 4px" class="fa fa-fw fa-envelope"></i>
+        ><i style="margin-right: 4px" class="fa fa-plus"></i>Add Idea</a>
+        <a href="#link3"><i style="margin-left: 4px" class="fa fa-fw fa-envelope"></i>
         Contact</a
       >
       <!-- <a href="#"><i style="margin-right: 4px;"class="fa fa-user-plus" ></i>Signup</a> -->
-      <!-- <span style="position: absolute; right:150px; color: white;"  title="User"><img src="https://img.icons8.com/metro/26/000000/guest-male.png"></span> -->
-      <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign Up</button>
-      <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
-      
+        <!-- <span style="position: absolute; right:150px; color: white;"  title="User"><img src="https://img.icons8.com/metro/26/000000/guest-male.png"></span> -->
+        <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign Up</button>
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
     </div>
-<!-- 
+    <!-- 
 
     **********************************************************
     login form
@@ -55,39 +47,39 @@
 
      -->
 
-     <div id="id01"  class="modal" >
-  
-      <form class="modal-content animate" action="" method="post" >
-        <div class="imgcontainer">
-          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close">&times;</span>
-          <img src="img/wp2563844-ghost-hd-wallpapers-1080p.jpg" alt="Avatar" class="avatar">
-          <h2>Login Here</h2>
-        </div>
-    
-        <div class="container">
-          <label for="uname"><b>Username</b></label>
-          <input type="text" placeholder="Enter Username" name="username" required>
-    
-          <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="password" required>
-            
-          <button type="submit">Login</button>
-          <label>
+    <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close">&times;</span>
+                <img src="img/wp2563844-ghost-hd-wallpapers-1080p.jpg" alt="Avatar" class="avatar">
+                <h2>Login Here</h2>
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="username" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="password" required>
+
+                <button type="submit">Login</button>
+                <label>
             <input type="checkbox" checked="checked" name="remember"> Remember me
           </label>
-        </div>
-    
-        <div class="container" style="background-color:#f1f1f1">
-          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-          <span class="psw">Forgot <a href="#">password?</a></span>
-        </div>
-      </form>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
     </div>
 
-<!-- ###################################################################### -->
+    <!-- ###################################################################### -->
 
 
-<!-- 
+    <!-- 
 
     **********************************************************
     signup form
@@ -97,78 +89,73 @@
 
 
 
-     <div id="id02" class="modal">
-      <form class="modal-content" action="" method="POST" style="width: 40%;">      
-        <div class="imgcontainer">
-        <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close">&times;</span>
-        <img src="img/wp2563844-ghost-hd-wallpapers-1080p.jpg" alt="Avatar" style="width: 10%;" class="avatar">
-      </div>
-        <div class="container">
-          <h1 style="  text-align: center;">Sign Up</h1>
-          <p style="  text-align: center;">Please fill in this form to create an account.</p>
-          <hr>
-          <label for="username"><b>Username</b></label>
-          <input type="text" placeholder="User Name" name="username" required>
-    
-          <label for="password"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="password" required>
-    
-          <label for="confirm_password"><b>Repeat Password</b></label>
-          <input type="password" placeholder="Repeat Password" name="confirm_password" required>
-          
-          <label>
+    <div id="id02" class="modal">
+        <form class="modal-content" action="" method="POST" style="width: 40%;">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close">&times;</span>
+                <img src="img/wp2563844-ghost-hd-wallpapers-1080p.jpg" alt="Avatar" style="width: 10%;" class="avatar">
+            </div>
+            <div class="container">
+                <h1 style="  text-align: center;">Sign Up</h1>
+                <p style="  text-align: center;">Please fill in this form to create an account.</p>
+                <hr>
+                <label for="username"><b>Username</b></label>
+                <input type="text" placeholder="User Name" name="username" required>
+
+                <label for="password"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="password" required>
+
+                <label for="confirm_password"><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="confirm_password" required>
+
+                <label>
             <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
           </label>
-    
-          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
-    
-          <div class="clearfix">
-            <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
-            <button type="submit" class="signupbtn">Sign Up</button>
-          </div>
-        </div>
-      </form>
+
+                <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+                <div class="clearfix">
+                    <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+                    <button type="submit" class="signupbtn">Sign Up</button>
+                </div>
+            </div>
+        </form>
     </div>
 
 
 
 
 
-<!-- ###################################################################### -->
+    <!-- ###################################################################### -->
     <section id="section-1">
-      <div class="h">
-        <span id="slogan" class="heading">YOUR IDEA CAN MAKE MONEY</span>
-      </div>
+        <div class="h">
+            <span id="slogan" class="heading">YOUR IDEA CAN MAKE MONEY</span>
+        </div>
     </section>
     <script>
-    var count = 1;
-      setInterval(() => {
-        
-         if (count==4 ) {
-            document.getElementById("slogan").textContent="PLATFORM TO SHARE IDEA ";
-         }
-         else if (count==3) {
-            document.getElementById("slogan").textContent="YOU CAN CHANGE THE WORLD ";
-         }
-         else if (count==2) {
-            document.getElementById("slogan").textContent="PLATFORM TO DEVELOPE IDEA ";
-         }
-        
-         else if (count==1) {
-          document.getElementById("slogan").textContent="YOUR IDEA CAN MAKE MONEY";
-         } 
-       count++;
-       if(count==5)
-       count=0;
-      }, 3000);
-    
+        var count = 1;
+        setInterval(() => {
+
+            if (count == 4) {
+                document.getElementById("slogan").textContent = "PLATFORM TO SHARE IDEA ";
+            } else if (count == 3) {
+                document.getElementById("slogan").textContent = "YOU CAN CHANGE THE WORLD ";
+            } else if (count == 2) {
+                document.getElementById("slogan").textContent = "PLATFORM TO DEVELOPE IDEA ";
+            } else if (count == 1) {
+                document.getElementById("slogan").textContent = "YOUR IDEA CAN MAKE MONEY";
+            }
+            count++;
+            if (count == 5)
+                count = 0;
+        }, 3000);
     </script>
     <div class="video">
-      <h1> <u>How it works </u></h1>
-      <video class="v" controls  muted>
+        <h1> <u>How it works </u></h1>
+        <video class="v" controls muted>
         <source src="photos/k.mp4" type="video/mp4">
       </video>
-      <img src="photos/PSX_20201107_130057.jpg" class="image">
+        <img src="photos/PSX_20201107_130057.jpg" class="image">
     </div>
 
 
@@ -176,167 +163,137 @@
 
 
     <div class="slideshow">
-      <div class="mySlides">
-        <div class="numbertext"></div>
-        <img
-          src="https://source.unsplash.com/1600x900/?ghosts"
-          style="width: 100%; height: 95vh"
-        />
-        <div class="text">
-          <h1>Lets your idea shine = make your idea work</h1></div>
-      </div>
-
-      <div class="mySlides">
-        <div class="numbertext"></div>
-        <img
-          src="https://source.unsplash.com/1600x900/?guns,ghost,crime"
-          style="width: 100%; height: 95vh"
-        />
-        <div class="text">
-          <h1>Share idea because sharing is caring</h1>
+        <div class="mySlides">
+            <div class="numbertext"></div>
+            <img src="https://source.unsplash.com/1600x900/?ghosts" style="width: 100%; height: 95vh" />
+            <div class="text">
+                <h1>Lets your idea shine = make your idea work</h1>
+            </div>
         </div>
-      </div>
 
-      <div class="mySlides">
-        <div class="numbertext"></div>
-        <img src="https://source.unsplash.com/1600x900/?ghost" style="width: 100%; height: 95vh" />
-        <div class="text">
-          <h1>Business depends upon innovation & newideas</h1></div>
-      </div>
-      <div class="mySlides">
-        <div class="numbertext"></div>
-        <img
-          src="https://source.unsplash.com/1600x900/?crime"
-          style="width: 100%; height: 95vh"
-        />
-        <div class="text1">
-          <h1></h1></div>
-      </div>
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div class="mySlides">
+            <div class="numbertext"></div>
+            <img src="https://source.unsplash.com/1600x900/?guns,ghost,crime" style="width: 100%; height: 95vh" />
+            <div class="text">
+                <h1>Share idea because sharing is caring</h1>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext"></div>
+            <img src="https://source.unsplash.com/1600x900/?ghost" style="width: 100%; height: 95vh" />
+            <div class="text">
+                <h1>Business depends upon innovation & newideas</h1>
+            </div>
+        </div>
+        <div class="mySlides">
+            <div class="numbertext"></div>
+            <img src="https://source.unsplash.com/1600x900/?crime" style="width: 100%; height: 95vh" />
+            <div class="text1">
+                <h1></h1>
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
     <br />
     <div style="text-align: center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-      <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
     </div>
     <script>
-      var slideIndex = 1;
-      showSlides(slideIndex);
+        var slideIndex = 1;
+        showSlides(slideIndex);
 
-      function plusSlides(n) {
-        showSlides((slideIndex += n));
-      }
+        function plusSlides(n) {
+            showSlides((slideIndex += n));
+        }
 
-      function currentSlide(n) {
-        showSlides((slideIndex = n));
-      }
-      function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {
-          slideIndex = 1;
+        function currentSlide(n) {
+            showSlides((slideIndex = n));
         }
-        if (n < 1) {
-          slideIndex = slides.length;
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1;
+            }
+            if (n < 1) {
+                slideIndex = slides.length;
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
         }
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-      }
-      // $(".menu").hover(function(){
-      //     $(this).addClass("fa fa-angle-double-down");
-      // }, function() {
-      //   $(this).removeClass("fa fa-angle-double-up");
-      // });
+        // $(".menu").hover(function(){
+        //     $(this).addClass("fa fa-angle-double-down");
+        // }, function() {
+        //   $(this).removeClass("fa fa-angle-double-up");
+        // });
     </script>
-    </div>
     <div class="section-3">
-      <a name="About Us"></a>
-      <div class="box">
-        <img src="photos/brain-2062057_640.jpg" />
-        <h2>About</h2>
-        <p>
-          Our Motto is to exchange the ideas and grow the knowledge. An immense
-          amount of knowledge that would be helpful to many people is currently
-          only available to few-either limited to people's head or only
-          available to selected bunch. We want to link the people who have
-          knowledge to the people who are in need of it, to unite people
-          together with different outlooks and to charter everyone to share
-          their knowledge for the benefit of other people.Our products and
-          services are focused on knowledge sharing. They can earn their ideas
-          too. 
-        </p>
-      </div>
-      <div class="box">
-        <img src="photos/ux-787980_640.jpg"/>
-        <h2>How it Helps others</h2>
-        <p>
-          It cheers up all the scholars and those who really have a good
-          knowledge about something to share their ideas and showing those ideas
-          to others can brace the thinking.
-          <span style="color: gold; font-weight: bold">DeepWorld </span>empowers
-          all the sharers and gainers to have a sense of association,
-          togetherness and duty which play essential role in their encouragement
-          and creation. can be used as idea contributing platform ,idea
-          management platform and innovative ideas for starting up something new
-          and for already existing firms. one can earn money if he/she has the
-          tendency to give good ideas 
-        </p>
-      </div>
-      <div class="box">
-        <img src="photos/business-idea-3683781_640.jpg" />
-        <h2>Working</h2>
-        <p>
-          Through
-          <span style="color: gold; font-weight: bold"> DeepWorld </span>,
-          everyone will be eligible to share his/her ideas. Everyone will be
-          looking for a good idea. Efficient ideas will be starred from all the
-          ideas that have been shared and ideas of each category will be
-          displayed in the descending order of their votes or likes which mean
-          the idea with highest number of likes will be shown at the top and
-          then the idea with the lesser number of likes. If any one wants to pay
-          others idea then they can donate. Through this the person with maximum
-          number of upvotes can also gain some popularity in that specific
-          category.
-        </p>
-      </div>
+        <a name="About Us"></a>
+        <div class="box">
+            <img src="photos/brain-2062057_640.jpg" />
+            <h2>About</h2>
+            <p>
+                Our Motto is to exchange the ideas and grow the knowledge. An immense amount of knowledge that would be helpful to many people is currently only available to few-either limited to people's head or only available to selected bunch. We want to link the
+                people who have knowledge to the people who are in need of it, to unite people together with different outlooks and to charter everyone to share their knowledge for the benefit of other people.Our products and services are focused on knowledge
+                sharing. They can earn their ideas too.
+            </p>
+        </div>
+        <div class="box">
+            <img src="photos/ux-787980_640.jpg" />
+            <h2>How it Helps others</h2>
+            <p>
+                It cheers up all the scholars and those who really have a good knowledge about something to share their ideas and showing those ideas to others can brace the thinking.
+                <span style="color: gold; font-weight: bold">DeepWorld </span>empowers all the sharers and gainers to have a sense of association, togetherness and duty which play essential role in their encouragement and creation. can be used as idea
+                contributing platform ,idea management platform and innovative ideas for starting up something new and for already existing firms. one can earn money if he/she has the tendency to give good ideas
+            </p>
+        </div>
+        <div class="box">
+            <img src="photos/business-idea-3683781_640.jpg" />
+            <h2>Working</h2>
+            <p>
+                Through
+                <span style="color: gold; font-weight: bold"> DeepWorld </span>, everyone will be eligible to share his/her ideas. Everyone will be looking for a good idea. Efficient ideas will be starred from all the ideas that have been shared and ideas
+                of each category will be displayed in the descending order of their votes or likes which mean the idea with highest number of likes will be shown at the top and then the idea with the lesser number of likes. If any one wants to pay others
+                idea then they can donate. Through this the person with maximum number of upvotes can also gain some popularity in that specific category.
+            </p>
+        </div>
     </div>
     <footer>
-      <section class="sec1">
-        <section class="link1">
-          <h1>
-            <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
-            DeepWorld
-          </h1>
-          <p>
-            DeepWorld works flexibly so that user can earn money. we have
-            designed this platform so that people can share their efficient and
-            innovative ideas. DeepWorld helps others so that they can use others
-            ideas effectively.
-          </p>
-        </section>
-        <section class="link2">
-          <h2>Helpful Links</h2>
-          <ul>
-            <li><a href="services.html">Services & Supports</a></li>
-            <li><a href="terms.html">Terms & Condition</a></li>
-            <li><a href="privacy.html">Privacy Policy</a></li>
-          </ul>
-        </section>
-        <section class="link3">
-          <h2>Contact Us</h2>
-          <ul>
-            <li>
-              <i class="fa fa-home" style="font-size: 20px; margin-right: 10px;"></i
+        <section class="sec1">
+            <section class="link1">
+                <h1>
+                    <i class="fa fa-lightbulb-o" aria-hidden="true"></i> DeepWorld
+                </h1>
+                <p>
+                    DeepWorld works flexibly so that user can earn money. we have designed this platform so that people can share their efficient and innovative ideas. DeepWorld helps others so that they can use others ideas effectively.
+                </p>
+            </section>
+            <section class="link2">
+                <h2>Helpful Links</h2>
+                <ul>
+                    <li><a href="services.html">Services & Supports</a></li>
+                    <li><a href="terms.html">Terms & Condition</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+            </section>
+            <section class="link3">
+                <h2>Contact Us</h2>
+                <ul>
+                    <li>
+                        <i class="fa fa-home" style="font-size: 20px; margin-right: 10px;"></i
               ><span>NH-47 Gla University, Mathura</span>
             </li>
             <li>
@@ -357,24 +314,23 @@
             Follow us:
             <li>
               <a href="https://www.facebook.com/DeepWorld-114628593786662"><i class="fa fa-facebook"></i></a>
-            </li>
-            <li>
-              <a href="https://twitter.com/idea_mera"><i class="fa fa-twitter"></i></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/DeepWorld2020/"><i class="fa fa-instagram"></i></a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/mera-idea-8022a41bb/"><i class="fa fa-linkedin"></i></a>
-            </li>
-          </h1>
-        </ul>
-      </section>
-      <section class="sec3">
-        <p>
-          Copyright © 2020 All Rights Reserved by
-          <a href="https://the-pandey-ji.github.io/DeepWorld/"
-            >DeepWorld</a
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/idea_mera"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/DeepWorld2020/"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/mera-idea-8022a41bb/"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                    </h1>
+                </ul>
+            </section>
+            <section class="sec3">
+                <p>
+                    Copyright © 2020 All Rights Reserved by
+                    <a href="https://the-pandey-ji.github.io/DeepWorld/">DeepWorld</a
           >
         </p>
       </section>
