@@ -114,7 +114,8 @@
         }
         
         #form2,
-        #form3 {
+        #form3,
+        #form4 {
             left: 450px;
         }
         
@@ -135,7 +136,7 @@
         }
         
         #progress {
-            width: 120px;
+            width: 80px;
             height: 100%;
             position: absolute;
             background-color: blue;
@@ -184,13 +185,23 @@
             </div>
         </form>
         <form id="form3">
-            <h3>PERSONAL INFORMATION</h3>
-            <input type="text" placeholder="First Name">
-            <input type="text" placeholder="Last Name">
-            <input type="text" placeholder="Mobile No.">
+            <h3>Content Liability</h3>
+            We shall have no responsibility or liability for any content appearing on your Web site. You agree to indemnify and defend us against all claims arising out of or based upon your Website. No link(s) may appear on any page on your Web site or within any
+            context containing content or materials that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.
             <div class="btn-box">
                 <button type="button" id="back2">Back</button>
-                <button type="button" id="submit">Submit</button>
+                <button type="button" id="next3">Next</button>
+            </div>
+        </form>
+
+        <form id="form4">
+            <h3>Removal Of External Links</h3>
+            We shall have no responsibility or liability for any content appearing on your Web site. You agree to indemnify and defend us against all claims arising out of or based upon your Website. No link(s) may appear on any page on your Web site or within any
+            context containing content or materials that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.
+            <div class="btn-box">
+                <button type="button" id="back3">Back</button>
+                <button type="button" id="submit-1">Submit
+                </button>
             </div>
         </form>
         <div class="step-row">
@@ -198,6 +209,8 @@
             <div class="step-col"><small>Step-1</small></div>
             <div class="step-col"><small>Step-2</small></div>
             <div class="step-col"><small>Step-3</small></div>
+            <div class="step-col"><small>Step-4</small></div>
+
         </div>
     </div>
 
@@ -251,8 +264,12 @@
 
         const next1 = document.getElementById('next1');
         const next2 = document.getElementById('next2');
+        const next3 = document.getElementById('next3');
+
         const back1 = document.getElementById('back1');
         const back2 = document.getElementById('back2');
+        const back3 = document.getElementById('back3');
+
 
         const progress = document.getElementById('progress');
 
@@ -262,22 +279,34 @@
         next1.onclick = function() {
             form1.style.left = '-450px';
             form2.style.left = '40px';
-            progress.style.width = '240px';
+            progress.style.width = '160px';
         };
         next2.onclick = function() {
             form2.style.left = '-450px';
             form3.style.left = '40px';
-            progress.style.width = '360px';
+            progress.style.width = '250px';
+        };
+
+        next3.onclick = function() {
+            form3.style.left = '-450px';
+            form4.style.left = '40px';
+            progress.style.width = '400px';
         };
         back1.onclick = function() {
             form1.style.left = '40px';
             form2.style.left = '450px';
-            progress.style.width = '120px';
+            progress.style.width = '80px';
         };
         back2.onclick = function() {
             form2.style.left = '40px';
             form3.style.left = '450px';
-            progress.style.width = '240px';
+            progress.style.width = '170px';
+        };
+
+        back3.onclick = function() {
+            form3.style.left = '40px';
+            form4.style.left = '450px';
+            progress.style.width = '250px';
         };
     </script>
 
