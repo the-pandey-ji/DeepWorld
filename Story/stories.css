@@ -46,3 +46,8 @@ body{
     font-family: 'Nosifer', cursive;
     font-style: normal;
 }
+@media(max-width:768px){
+    .header h1{
+        display: none;
+    }
+}
