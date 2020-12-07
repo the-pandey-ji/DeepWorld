@@ -25,3 +25,24 @@ body{
     line-height: 70px;
     color: white;
 }
+.content{
+    width: 100%;
+    padding: 20px;
+    float: right;
+    transition: .7s;
+    margin-top: 90px;
+    
+}
+.content img{
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.content p{
+    text-align: justify;
+    color: red;
+    font-family: 'Nosifer', cursive;
+    font-style: normal;
+}
